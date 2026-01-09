@@ -31,10 +31,14 @@ A MERN stack Book Sharing Web Application that allows users to register, log in,
 ##  Project Structure
 
 Book-Sharing-App/
-│
+
+
 ├── frontend/ # React frontend
+
 ├── backend/ # Node + Express backend
+
 ├── .gitignore
+
 └── README.md
 
 
@@ -44,26 +48,27 @@ Book-Sharing-App/
 ##  Installation & Setup
 
 ### Backend
-cd backend
-npm install
-npm run dev
+ - cd backend
+ - npm install
+ - npm run dev
 
 
 ### frontend
-cd frontend
-npm install
-npm run dev
+ - cd frontend
+ - npm install
+ - npm run dev
 
-### Environment Variables
+## Environment Variables
 
 Create a .env file inside the backend folder:
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
+ - PORT=5000
+ - MONGO_URI=your_mongodb_connection_string
+ - JWT_SECRET=your_secret_key
 
 
-### Author
+## Author
 Author
 
 Swathy K S
+
 MERN Full Stack Developer
